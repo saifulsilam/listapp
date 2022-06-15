@@ -1,4 +1,47 @@
 .container{
     max-width: 114rem;
+    box-sizing: border-box;
+    
+}
+input[type=email],input[type=text],input[type=password],input[type=number]{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding:5px 10px;
+    margin-bottom: 0.5rem;
+}
+.header{
     text-align: center;
+}
+.studentForm{
+    width: 40%;
+    margin: 0 auto;
+}
+button{
+    background-color: #0275d8;
+    border: none;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+}
+.studentData{
+   
+    margin: 0 auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 4rem;
+}
+.studentData table{
+    width: 80%;
+    margin: 0 auto;
+}
+.studentData th{
+    width: 10rem;
+    
+}
+.btn{
+    padding: 0.5rem 0.7rem;
+    background-color: #d9534f;
+    border: none;
+    color: white;
 }

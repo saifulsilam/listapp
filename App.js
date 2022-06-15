@@ -2,6 +2,8 @@ const studentName= document.getElementById("studentName");
 const courseName= document.getElementById("courseName");
 const price= document.getElementById("price");
 const addBtn = document.querySelector(".submit");
+
+
 const studentLists = document.getElementById("studentList");
 
 addBtn.addEventListener("click", 
@@ -75,6 +77,7 @@ function(event){
             e.target.parentElement.parentElement.remove();
         })
     }
+
 
 
 })
